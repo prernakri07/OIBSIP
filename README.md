@@ -1,2 +1,0 @@
-# OIBSIP
-Author - Prerna Kumari
