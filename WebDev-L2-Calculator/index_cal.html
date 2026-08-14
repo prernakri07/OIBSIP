@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Calculator | OASIS Infobyte</title>
+    <link rel="stylesheet" href="style_cal.css">
+</head>
+<body>
+    <main class="calculator-container">
+        <div class="calculator">
+            <!-- Calculator Header -->
+            <div class="calculator-header">
+                <h1>Calculator</h1>
+                <p>OASIS Infobyte • Level 2 • Task 1</p>
+            </div>
+            <!-- Display -->
+            <div class="display-container">
+                <input type="text" id="display" class="display" value="0" readonly aria-label="Calculator display">
+            </div>
+            <!-- Calculator Buttons -->
+            <div class="buttons">
+                <!-- First Row -->
+                <button type="button" class="button clear" id="clear">
+                    C
+                </button>
+                <button type="button" class="button backspace" id="backspace">
+                    ⌫
+                </button>
+                <button type="button" class="button operator" data-value="%">
+                    %
+                </button>
+                <button type="button" class="button operator" data-value="/">
+                    ÷
+                </button>
+                <!-- Second Row -->
+                <button type="button" class="button number" data-value="7">
+                    7
+                </button>
+                <button type="button" class="button number" data-value="8"> 
+                  8
+                </button>
+
+                <button type="button" class="button number" data-value="9" >
+                    9
+                </button>
+                <button type="button" class="button number" data-value="*"> 
+                                        ×
+                </button>
+                <!-- Third Row -->
+                <button type="button" class="button number" data-value="4">
+                    4
+                </button> 
+                <button type="button" class="button number" data-value="5">
+                    5
+                </button>
+                <button type="button" class="button number" data-value="6">
+                    6
+                </button>
+                <button type="button" class="button number" data-value="-">
+                    −
+                </button>
+                <!-- Fourth Row -->
+                <button type="button" class="button number" data-value="1">
+                    1
+                </button>
+                <button type="button" class="button number" data-value="2">
+                    2
+                </button>
+                <button type="button" class="button number" data-value="3">
+                    3
+                </button>
+                <button type="button" class="button number" data-value="+">
+                    +
+                </button>
+                <!-- Fifth Row -->
+                <button type="button" class="button number" data-value="0">
+                    0
+                </button>
+                <button type="button" class="button number" data-value=".">
+                    .
+                </button>
+                <button type="button" class="button equals" id="equals">
+                    =
+                </button>
+            </div>
+        </div>
+    </main>
+    <script src="script_cal.js"></script>
+</body>
+</html>
