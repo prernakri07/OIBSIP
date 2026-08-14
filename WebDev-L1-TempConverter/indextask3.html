@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="styletask3.css">
+</head>
+<body>
+    <div class="container">
+        <div class="converter-card">
+            <h1>🌡️ Temperature Converter</h1>
+            <p class="subtitle">
+                Convert temperatures between Celsius, Fahrenheit and Kelvin
+            </p>
+            <!-- Temperature Input -->
+            <div class="input-group">
+                <label for="temperature">
+                    Enter Temperature
+                </label>
+                <input type="number" id="temperature" placeholder="Enter temperature" step="any">
+           </div>
+            <!-- Unit Selection -->
+            <div class="input-group">
+                <label for="unit">
+                    Select Input Unit
+                </label>
+                <select id="unit">
+                    <option value="celsius">
+                        Celsius (°C)
+                    </option>
+                    <option value="fahrenheit">
+                        Fahrenheit (°F)
+                    </option>
+                    <option value="kelvin">
+                        Kelvin (K)
+                    </option>
+                </select>
+            </div>
+            <!-- Convert Button -->
+           <button id="convertBtn">
+                Convert Temperature
+            </button>
+            <!-- Error Message -->
+            <div id="error" class="error"></div>
+            <!-- Result Section -->
+            <div id="results" class="results">
+                <h2>Converted Temperature</h2>
+                <div class="result-box">
+                    <span>Celsius</span>
+                   <strong id="celsiusResult">
+                        —
+                    </strong>
+                </div>
+                <div class="result-box">
+                    <span>Fahrenheit</span>
+                    <strong id="fahrenheitResult">
+                        —
+                    </strong>
+                </div>
+                <div class="result-box">
+                    <span>Kelvin</span>
+                   <strong id="kelvinResult">
+                        —
+                    </strong>
+                </div>
+            </div>
+        </div>
+    </div>
+   <script src="script.js"></script>
+</body>
+</html>
