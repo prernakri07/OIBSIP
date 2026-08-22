@@ -1,20 +1,14 @@
-# NovaTech Landing Page
+# BinaryMinds Landing Page
 ## OASIS Infobyte Internship
 **Track:** Web Development & Designing  
 **Level:** Level 1  
 **Task:** Task 1 - Landing Page
 
 ## Project Overview
-NovaTech is a fictional digital solutions brand created as a static
-landing page using HTML5 and CSS3.
-The project demonstrates modern web design principles including
-responsive layouts, navigation, structured content sections,
-call-to-action buttons and a professional footer.
+BinaryMinds is a fictional digital solutions brand created as a static landing page using HTML5 and CSS3. The project demonstrates modern web design principles including responsive layouts, navigation, structured content sections, call-to-action buttons and a professional footer.
 
 ## Objective
-The objective of this project is to build a visually polished,
-responsive static landing page that demonstrates foundational
-HTML and CSS layout skills.
+The objective of this project is to build a visually polished, responsive static landing page that demonstrates foundational HTML and CSS layout skills.
 
 ## Technologies Used
 - HTML5
@@ -48,7 +42,3 @@ HTML and CSS layout skills.
 - Clean and readable typography
 - Smooth scrolling navigation
 - No JavaScript required
-
-├── index.html
-├── style.css
-└── README.md
