@@ -65,7 +65,7 @@ The portfolio showcases skills and technologies that I am learningand using, inc
 #### Bihar Darshan
 A tourism-focused project designed to promote Bihar's historical places, traditional art, local cuisine, festivals, and travel experiences.
 
-#### NovaTech Landing Page
+####  BinaryMinds Landing Page
 A responsive landing page created using HTML5 and CSS3 as part of OASIS Infobyte Web Development Level 1 Task 1.
 
 ###  Contact
